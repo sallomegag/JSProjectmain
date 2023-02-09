@@ -1,0 +1,363 @@
+/*max-width 1100 px*/
+/*index.html*/
+
+@media(max-width:1100px){
+    .resolutionh3{
+        display: none;
+    }
+    .fourth-section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .saerto1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+
+    .saerto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+
+  
+    .right-div4{
+        margin-right: 0px;
+    }
+    .secondsection-div2{
+        left: 30%;
+    }
+
+}
+@media(max-width:990px){
+    .resolution4{
+        display: none;
+    }
+}
+@media(max-width:750px){
+    .a-tag{
+        font-size: 18px;
+    }
+    .class-li{
+        margin-left: 25px;
+    }
+    .secondsection-div2{
+        left: 10%;
+        max-width: 350px;
+        width: 100%;
+    }
+    .thirdsection-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:600px){
+    .h3-footer2{
+        display: none;
+    }
+    .right-div4{
+        grid-template-columns: 60%;
+        margin-bottom: 30px;
+    }
+#top{
+    display: none;
+}
+.chatbutton {
+    display: none;
+}
+}
+@media(max-width:480px){
+    .h2-element{
+        font-size: 25px;
+        text-align: center;
+    }
+    .p-element{
+        text-align: center;
+    }
+    .secondsection-div2{
+        max-width: 250px;
+        width: 100%;
+    }
+    .h3in-div{
+        font-size: 25px;
+    }
+    .h2in-div{
+        font-size: 25px;
+    }
+    .pin-div{
+        font-size: 17px;
+    }
+    .fourth-section{
+        margin-top: 0px;
+    }
+    .h3-tag4{
+        font-size: 30px;
+    }
+    .h2-tag4{
+        font-size: 25px;
+    }
+    .p-tag4{
+        font-size: 18px;
+        text-align: center;
+    }
+    .saerto1 , .saerto2 , .coc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px auto 0;
+    
+    }
+    .p-first{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .footer{
+        padding: 0px;
+
+    }
+    .copyright{
+        font-size: 16px;
+        margin-bottom: 80px;
+    }
+
+    .chatbutton {
+        display: none;
+    }
+    .footermain {
+        height: 650px;
+    }
+
+}
+/*menu*/
+@media(max-width:1000px){
+    .discover-p{
+        text-align: center;
+        max-width: 90%;
+    }
+}
+@media(max-width:830px){
+    .accordion{
+        width: 90%;
+        grid-template-columns: 45% 45%;
+    }
+}
+@media(max-width:580px){
+    .posts{
+        width: 90%;
+    }
+    .accordion{
+        width: 90%;
+        grid-template-columns:100%;
+        gap:0px;
+    }
+    
+}
+@media(max-width:480px){
+    .main-texts{
+        text-align: center;
+        font-size: 20px;
+    }
+    .discover-menu{
+        font-size: 30px;
+    }
+    .discover-products{
+        font-size: 25px;
+    }
+    .discover-p{
+      font-size: 18px;
+    }
+    .accordion-title{
+        font-size: 18px;
+    }
+    .accordion-title::after{
+        right: 60px;
+        font-size: 10px;
+    }
+    .h3Post{
+        margin-right: 8px;
+        font-size: 12px;
+    }
+    .h2Post{
+        margin-right: 8px;
+        font-size: 12px;
+    }
+    .h2Post2{
+        margin-right: 18px;
+        font-size: 12px;
+    }
+    .span-posts{
+        font-size: 12px;
+    }
+    .background-img3{
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+    }
+    .footermain {
+        height: 650px;
+    }
+}
+/*abot html*/
+@media(max-width:1000px){
+
+    .content-about{
+        font-size: 15px;
+    }
+    .content-p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:780px){
+
+    .content-about{
+        font-size: 12px;
+    }
+    .content-p{
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    .accordion-about{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        align-items: center;
+    }
+    .container-about.active .content-about {
+      height: 100px;
+    }
+    .coc {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px auto 0;
+         
+    }
+    .footermain {
+        height: 650px;
+    }
+}
+
+
+/*contact page in html*/
+@media(max-width:1300px){
+    .next-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .li-cont{
+        text-align: center;
+    }
+}
+@media(max-width:800px){
+    .registration-form-class{
+        width: 500px;
+      }
+      .inputs{
+        max-width: 500px;
+        width: 100%;
+      } 
+}
+
+@media(max-width:580px){
+    .registration-form-class{
+        width: 300px;
+      }
+      .inputs{
+        max-width: 300px;
+        width: 100%;
+      } 
+}
+@media(max-width:480px){
+    .registration-form-class{
+        width: 250px;
+      }
+      .inputs {
+        max-width: 250px;
+        width: 100%;
+      } 
+      .coc {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px auto 0;
+         
+    }
+    .footermain {
+        height: 650px;
+    }
+    .button-class {
+        margin-left: 20px;
+    }
+}
+
+/* customer */
+
+ @media(max-width:1300px){
+    .user-list{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .li-cont{
+        text-align: center;
+    }
+    .maincont i{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .user-list{
+        width: 500px;
+      }
+      .inputs{
+        max-width: 500px;
+        width: 100%;
+      } 
+} 
+
+@media(max-width:580px){
+    .user-list{
+        width: 300px;
+      }
+      .inputs{
+        max-width: 300px;
+        width: 100%;
+      } 
+      .maincont i{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .user-list{
+        width: 250px;
+      }
+      .inputs{
+        max-width: 250px;
+        width: 100%;
+      } 
+      .coc {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px auto 0;
+         
+    }
+    .footermain {
+        height: 650px;
+    }
+
+    .maincont i{
+        display: none;
+    }
+}
+

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Josefin Slab';
+    src: url('../fonts/firstfonts/JosefinSlab-Regular.eot');
+    src: url('../fonts/firstfonts/JosefinSlab-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/firstfonts/JosefinSlab-Regular.woff2') format('woff2'),
+        url('../fonts/firstfonts/JosefinSlab-Regular.woff') format('woff'),
+        url('../fonts/firstfonts/JosefinSlab-Regular.ttf') format('truetype'),
+        url('../fonts/firstfonts/fonts/JosefinSlab-Regular.svg#JosefinSlab-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/secondfonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../fonts/secondfonts/GreatVibes-Regular.woff') format('woff'),
+        url('../fonts/secondfonts/GreatVibes-Regular.ttf') format('truetype'),
+        url('../fonts/secondfonts//GreatVibes-Regular.svg#GreatVibes-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
